@@ -32,7 +32,6 @@ public class UniqueConstraintValidator implements ConstraintValidator<UniqueCons
     public void initialize(UniqueConstraint unique) {
         entityClass = unique.entity();
         uniqueField = unique.property();
-
     }
 
     @Autowired
