@@ -154,7 +154,7 @@ public class AppConfiguration implements ApplicationContextAware, WebMvcConfigur
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3307/inotes_application?useUnicode=true&characterEncoding=UTF-8");
         dataSource.setUsername("root");
-        dataSource.setPassword("cuongthan1280");
+        dataSource.setPassword("123456");
         return dataSource;
     }
 
