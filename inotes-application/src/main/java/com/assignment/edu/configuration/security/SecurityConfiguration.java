@@ -59,7 +59,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                     .permitAll()
-//                    .successHandler(customSuccessHandler)
+                    .successHandler(customSuccessHandler)
                     .defaultSuccessUrl("/home/notes/1?sortField=id&sortDir=asc", true)
                 .and()
                 .logout()
